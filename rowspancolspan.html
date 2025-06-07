@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Table with Colspan and Rowspan</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 60%;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>School Timetable</h2>
+
+  <table>
+    <tr>
+      <th>Time</th>
+      <th>Monday</th>
+      <th>Tuesday</th>
+      <th>Wednesday</th>
+    </tr>
+
+    <tr>
+      <td>9:00 - 10:00</td>
+      <td rowspan="2">Math</td>  
+      <td>English</td>
+      <td>Science</td>
+    </tr>
+
+    <tr>
+      <td>10:00 - 11:00</td>
+      <td colspan="2">Social Studies</td>  
+    </tr>
+
+    <tr>
+      <td>11:00 - 12:00</td>
+      <td>Art</td>
+      <td>Music</td>
+      <td>PE</td>
+    </tr>
+
+  </table>
+
+</body>
+</html>
